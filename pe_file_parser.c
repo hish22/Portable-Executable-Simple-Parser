@@ -39,10 +39,10 @@ int main(int argc,char **argv) {
         exit(1);
     }
 
-    // Create a new dos block (64 bytes without count the padding)
+    // Create a new dos block (64 bytes without count of the padding)
     struct dos_section *dptr = malloc(sizeof(struct dos_section));
 
-    // Create PE new block (26 bytes without count the padding)
+    // Create PE new block (26 bytes without count of the padding)
     struct portable_executable *pptr = malloc(sizeof(struct portable_executable));
 
     // Copy content from disk to memory block
