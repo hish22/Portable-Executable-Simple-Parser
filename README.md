@@ -6,5 +6,5 @@ This C program is a Portable Executable (PE) parser that extracts metadata from 
 
 ```bash
 gcc pe_file_parser.c -o pfp
-./pfp
+./pfp <filename>.exe
 ```
