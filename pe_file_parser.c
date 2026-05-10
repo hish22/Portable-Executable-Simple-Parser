@@ -98,7 +98,6 @@ int main(int argc,char **argv) {
     printf("COFF header Timestamp: %s\n",buffer);
     
     // Standard COFF Magic
-
     switch (pptr->magic)
     {
     case 0x010B:
